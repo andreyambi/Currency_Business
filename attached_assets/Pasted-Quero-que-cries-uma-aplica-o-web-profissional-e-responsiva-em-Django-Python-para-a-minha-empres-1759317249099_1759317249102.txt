@@ -1,0 +1,112 @@
+Quero que cries uma aplicação web profissional e responsiva em *Django (Python)* para a minha empresa *Currency Business (CyB)*. A aplicação será desenvolvida no *Replit*, por isso, organiza o código em pastas corretamente (models, views, templates, static, etc.) e com comentários para facilitar modificações.
+
+---
+
+🎯 Objetivo Geral:
+
+Centralizar os serviços financeiros da CyB em uma única plataforma. Os serviços incluem *gestão de carteiras digitais, câmbio, transferências, verificação de documentos, empréstimos pessoais* e mais.
+
+---
+
+🧩 Funcionalidades Principais:
+
+1. *Página Inicial (Landing Page)*
+- Apresentação da empresa e seus serviços
+- Exibição de *taxas de câmbio atualizadas* (Euro, Dólar, Kz)
+- Acesso direto a:
+  - *Carregamento de carteiras*
+  - *Solicitação de empréstimos*
+  - *Login/Cadastro com verificação*
+
+---
+
+2. *Gestão de Carteiras Digitais*
+- Suporte às carteiras:
+  - Binance, Wise, PayPal, Redotpay, Mastercard Baybit, PYYPL, Myfim, AdvCash, Revolut, Jeton
+- Funcionalidades:
+  - Abertura de contas
+  - Carregamento de saldo (simulado)
+  - Verificação com envio de documentos
+
+---
+
+3. *Serviços Financeiros*
+- Abertura de contas internacionais
+- Transferências bancárias internacionais
+- Emissão de cartões Visa (virtual e físico)
+- Compra e venda de moedas por transferência
+- Verificação de contas internacionais
+- Pagamento de serviços como: Netflix, Spotify, Canva Pro, ChatGPT Plus, etc.
+
+---
+
+4. *Empréstimos*
+- Simulação de empréstimos com:
+  - Valor solicitado
+  - Taxa de juro configurável para o administrador
+  - Prazo de pagamento
+- Formulário de solicitação com:
+  - Média do salário mensal em kz
+  - Dia de pagamento
+  - Local de serviço
+  - Dois contactos de emergência
+  - Conta bancária( com espaço para colocar o IBAN e o banco coloque um lista de escolha para os diferentes bancos de Angola)
+  - Documentos pessoais e justificativa
+- Histórico de empréstimos
+- Status do pedido (pendente, aprovado, recusado)
+- Notificações por email/WhatsApp
+
+---
+
+5. *Área do Cliente*
+- Login/Cadastro com email ou telefone, após o cadastro passar para verificação de identidade.
+- Dashboard com:
+  - Saldo fictício
+  - Últimos movimentos (depósitos, trocas, empréstimos)
+  - Botões:
+    - Depositar
+    - Trocar moeda
+    - Levantar
+    - Solicitar empréstimo
+- Upload de documentos (BI, selfie, comprovativo)
+- Chatbot para dúvidas rápidas
+
+---
+
+6. *Área do Administrador*
+- Autenticação como admin
+- Painel para:
+  - Gerenciar usuários, pedidos e uploads
+  - Aprovar/reprovar documentos (KYC)
+  - Configurar taxas de câmbio e juros
+  - Ver simulações e pedidos de empréstimos
+  - Alterar o montante disponível para empréstimos por cliente
+  - Exportar relatórios (PDF/Excel)
+  - Enviar notificações
+E muito mais.
+---
+
+🎨 Design e Cores:
+- Usar cores com base no logotipo da empresa (anexado)
+- Paleta principal: *Dourado*, *Preto*, *Azul escuro*
+- Layout moderno, limpo, responsivo (mobile friendly)
+
+---
+
+📂 Estrutura esperada:
+- `templates/` com HTML organizado por páginas
+- `static/` com CSS/JS personalizado
+- `apps/` separando funcionalidades (ex: carteiras, empréstimos, admin, usuários)
+- Banco de dados SQLite para testes
+- Uso de Django Admin e mensagens automáticas
+
+---
+
+> Não utilize bibliotecas pagas. Tudo deve funcionar gratuitamente no Replit.
+
+Nota importante, todas as trocas de depósito e levantamento serão feitas fora do app web em contas bancárias da empresa e dos clientes, por isso para o depósito pode haver a necessidade de gerar referências enviado por email ou WhatsApp para os clientes ou coordenadas bancárias da empresa, para o cliente enviar os valores, tanto para depósito no país e fora.
+
+Os contatos da empresa são:
+Email:cybexchange@gmail.com
+WhatsApp: +244 926 224 075
+Instagram: @andre_yambi
